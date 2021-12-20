@@ -123,26 +123,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &444964171 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 9074650029438790579, guid: 15dd8a1e19761c547a38da1cb08ae203, type: 3}
-  m_PrefabInstance: {fileID: 9074650030344897379}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &444964175
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 444964171}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6048fd44321500b419ea2906e1dfc95a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _rotationInput: {fileID: 11400000, guid: b7cede00145506c4aa2f13f8abc88ca2, type: 2}
-  _towerTransfrom: {fileID: 825745045}
-  _towerRotationSettings: {fileID: 11400000, guid: 1e3362ed02813c348b45b2c24bf87da7, type: 2}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -236,9 +216,9 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
---- !u!4 &825745045 stripped
+--- !u!4 &1104958906 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 4743956137324150627, guid: 15dd8a1e19761c547a38da1cb08ae203, type: 3}
+  m_CorrespondingSourceObject: {fileID: 7339236192951676613, guid: 15dd8a1e19761c547a38da1cb08ae203, type: 3}
   m_PrefabInstance: {fileID: 9074650030344897379}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1662093190
@@ -412,6 +392,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 460149866811840131, guid: 15dd8a1e19761c547a38da1cb08ae203, type: 3}
+      propertyPath: _targetTransform
+      value: 
+      objectReference: {fileID: 1104958906}
     - target: {fileID: 9074650029438790578, guid: 15dd8a1e19761c547a38da1cb08ae203, type: 3}
       propertyPath: m_RootOrder
       value: 2
