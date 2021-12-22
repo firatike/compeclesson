@@ -9,9 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 643a5c337ee7f0f4eb47291c2f104bce, type: 3}
-  m_Name: CameraSettings_LocalPlayer
+  m_Script: {fileID: 11500000, guid: 3285f044292bc4f4e812e06ad84ea732, type: 3}
+  m_Name: PlayerInventoryCannonItemData_Default
   m_EditorClassIdentifier: 
-  _rotationLerpSpeed: 10
-  _positionOffset: {x: 0, y: 0, z: -5}
-  _positionLerp: 10
+  _itemId: default_cannon
+  _inventoryItemDataType: 0
+  _prefab: {fileID: -2219257862672101781, guid: 57845b5c8ee5ff444abbd833f6cc74ad, type: 3}
